@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #777;
+  padding: 1.875rem;
+}
+
+@supports ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 97%)) or (clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 97%))) {
+  body {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 97%);
+            clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 97%);
+  }
+}
+
+.header {
+  position: relative;
+  height: 95vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(#28b485)), url("/img/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), #28b485), url("/img/hero.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.logo-box {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+}
+
+.logo {
+  height: 2.188rem;
+}
+
