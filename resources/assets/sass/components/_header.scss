@@ -1,0 +1,62 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #777;
+  padding: 1.875rem;
+}
+
+@supports (clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 97%)) {
+  body {
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 97%);
+  }
+}
+
+.header {
+  position: relative;
+  height: 95vh;
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba(126,213,111, 0.8),
+                  #28b485),
+  url("/img/hero.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.header__logo-box {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+}
+
+.header__logo-box__logo {
+  height: 2.188rem;
+}
+
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__text-box__primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header__primary__main {
+  display: block;
+  font-size: 3.75rem;
+  font-weight: 400;
+  letter-spacing: 2.188rem;
+}
+
+.header__primary__sub {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1.063rem;
+}
