@@ -23,6 +23,7 @@
                     <span class="header__primary__main">OutDoors</span>
                     <span class="header__primary__sub">is where life happens</span>
                 </h1>
+                <a href="#" class="btn btn-white">Discover our tours</a>
             </div>
         </header>
     </body>
