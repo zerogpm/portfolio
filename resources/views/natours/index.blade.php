@@ -7,7 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <link href="{{ asset('/css/icon-font.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('/css/natours-vender-css/icon-font.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon.png') }}">
 
@@ -64,6 +64,54 @@
             </div>
         </div>
     </section>
+
+    <div class="section-features">
+        <div class="row">
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-world"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima,
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-compass"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima,
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-map"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima,
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-heart"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Live a healthy life</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima,
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 </body>
 </html>
