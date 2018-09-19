@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('natours');
+    return view('natours.index');
+});
+
+Route::get('/grid', function () {
+    return view('grid.grid');
 });
