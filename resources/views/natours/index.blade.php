@@ -217,6 +217,66 @@
             <a href="#" class="btn btn--green">Discover all tours</a>
         </div>
     </section>
+
+    <section class="section-stories">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+                <source src="{{asset('img/video.mp4')}}" type="video/mp4">
+                <source src="{{ asset('img/video.webm') }}" type="video/webm">
+                Your browser is not supported!
+            </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+                We make people genuinely happy
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="{{ asset('img/nat-8.jpg') }}" alt="Person on a tour" class="story__img">
+                    <figcaption class="story__caption">
+                        Mary Smith
+                    </figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="{{ asset('img/nat-9.jpg') }}" alt="Person on a tour" class="story__img">
+                    <figcaption class="story__caption">
+                        Jack Wilson
+                    </figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3 class="heading-tertiary u-margin-bottom-small">WoW! My life is completely different now.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci aliquid aspernatur
+                        cupiditate dicta, dolores dolorum eos hic incidunt minima.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+            <a href="#" class="btn-text">Read All Stories &rarr;</a>
+        </div>
+    </section>
 </main>
 </body>
 </html>
