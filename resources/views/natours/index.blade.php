@@ -291,12 +291,12 @@
                     <form action="#" class="form">
                         <div class="form__group">
                             <input type="text" class="form__input" placeholder="Full Name" id="name" required>
-                            <label for="name" class="form__label">Full name</label>
+                            <label for="name" class="form__label">Full Name</label>
                         </div>
 
                         <div class="form__group">
-                            <input type="email" class="form__input" placeholder="Email address" id="email" required>
-                            <label for="email" class="form__label">Full name</label>
+                            <input type="email" class="form__input" placeholder="Email Address" id="email" required>
+                            <label for="email" class="form__label">Email Address</label>
                         </div>
                     </form>
                 </div>
