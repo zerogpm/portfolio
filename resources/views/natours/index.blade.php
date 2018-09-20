@@ -326,5 +326,29 @@
         </div>
     </section>
 </main>
+
+<footer class="footer">
+    <div class="footer__logo-box">
+        <img src="{{ asset('img/logo-green-2x.png') }}" alt="Full logo" class="footer__logo">
+    </div>
+    <div class="row">
+        <div class="col-1-of-2">
+            <div class="footer__navigation">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-1-of-2">
+            <p class="footer__copyright">
+                Build my <a href="#" class="footer__link">Lorem ipsum dolor sit amet, </a> Copyright &copy; consectetur adipisicing elit. Doloremque doloribus eum inventore ipsam magni, molestias neque perferendis praesentium quas qui quibusdam, quo, rem! Aliquam impedit mollitia non reprehenderit, rerum ullam?
+            </p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
